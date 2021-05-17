@@ -39,9 +39,10 @@
         }
 
         render(){
+          let {currentMood} = this.state
           return(
-
-              <h1>Welcome to the Mood Meter App</h1>
+            <>
+              <h1> Welcome to the Mood Meter App</h1>
 
               <h3>Mood Options:</h3>
 
@@ -52,13 +53,14 @@
               <button onClick={ handleMoodOptions }>
                 Click Here For Next Mood option
               </button>
+              </>
 
           )
         }
       }
 
 
-
+      // export default App 
 
 
       // No need to change anything below this line
